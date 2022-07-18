@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "TLive",
+  "description": "Check live streams",
+  "permissions": ["https://cdn.jsdelivr.net/npm/vue@3"],
+  "version": "1.0.0",
+  "icons": {
+    "16": "/images/icons8-live-60.png"
+  },
+  "browser_action": {
+    "default_icon": "/images/icons8-live-60.png",
+    "default_popup": "./popup.html"
+  },
+  "content_security_policy": "script-src 'self' 'unsafe-eval' https://cdn.jsdelivr.net; object-src 'self'"
+}
